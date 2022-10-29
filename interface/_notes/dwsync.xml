@@ -5,4 +5,5 @@
 <file name="frm_insert_patient.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133110849626286555" remote="133110849620000000" Dst="0" />
 <file name="frm_display_patient.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133112497338332267" remote="133112497330000000" Dst="0" />
 <file name="frm_Insert_Doctor.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133112569951746894" remote="133112569950000000" Dst="0" />
+<file name="frm_update_doctor.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133114943500755304" remote="133114943500000000" Dst="0" />
 </dwsync>
