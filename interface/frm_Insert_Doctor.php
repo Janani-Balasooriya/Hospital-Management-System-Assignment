@@ -102,7 +102,10 @@ require_once('../nav.php');
 </div>
 </div>
 <div class="form-group row">
- <button type="submit" class="btn btn-primary mb-2">Register Doctor</button>
+	<div class="col-sm-10">
+      <button type="submit" class="btn btn-primary mb-2">Register Doctor</button>
+    </div>
+ 
  </div>
 </form>
 </div>

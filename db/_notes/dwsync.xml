@@ -6,4 +6,7 @@
 <file name="connection.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133110812219655881" remote="133110812210000000" Dst="0" />
 <file name="insert_doctor.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133112573862345177" remote="133112573860000000" Dst="0" />
 <file name="update_doctor.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133114951450937746" remote="133114951450000000" Dst="0" />
+<file name="delete_doctor.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116020819837387" remote="133116020810000000" Dst="0" />
+<file name="insert_room.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116020528417922" remote="133116020520000000" Dst="0" />
+<file name="Update_room.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116020441607492" remote="133116020440000000" Dst="0" />
 </dwsync>
