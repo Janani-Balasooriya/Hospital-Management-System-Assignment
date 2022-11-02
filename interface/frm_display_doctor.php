@@ -13,14 +13,16 @@ require_once('../nav.php');
 
 
 
-<link rel="stylesheet" type="text/css" href="../bootstrap-4.3.1-dist/css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="../css/background.css">
+<link href="../css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+<link href="../css/header.css" rel="stylesheet" type="text/css">
+<link href="../css/main-div.css" rel="stylesheet" type="text/css">
+<link href="../css/table-grid.css" rel="stylesheet" type="text/css">
 
 <head>
 <body>
-<div class="container">
+<div class="container main_div">
 <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
-<h5 align="center" class="my">Searching Doctor for Displaying</h5>
+<h5 align="center" id="head">Searching Doctor for Displaying</h5>
 <div class="form-group row">
 		<label for="pd" class="col-sm-4 col-form-label">Enter Doctor ID</label>
 		<div class="col-sm-8">
@@ -34,7 +36,7 @@ require_once('../nav.php');
 
 <?php
 if(isset($_POST['search'])){//if button is clicked
-require_once('../php/connection.php');
+require_once('../db/connection.php');
 $sql="SELECT * FROM doctors WHERE doctor_id='$_POST[doctorid]';";
 $result=$conn->query($sql);
 		if(mysqli_num_rows($result)==0)

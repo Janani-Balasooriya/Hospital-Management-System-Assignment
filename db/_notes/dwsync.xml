@@ -9,4 +9,8 @@
 <file name="delete_doctor.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116020819837387" remote="133116020810000000" Dst="0" />
 <file name="insert_room.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116020528417922" remote="133116020520000000" Dst="0" />
 <file name="Update_room.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116020441607492" remote="133116020440000000" Dst="0" />
+<file name="delete_room.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116813908363918" remote="133116813900000000" Dst="0" />
+<file name="insert_lab_test.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116854638245754" remote="133116854630000000" Dst="0" />
+<file name="update_lab_test.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116867612285494" remote="133116867610000000" Dst="0" />
+<file name="delete_lab_test.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116873887932876" remote="133116873880000000" Dst="0" />
 </dwsync>

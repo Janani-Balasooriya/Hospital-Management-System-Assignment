@@ -2,32 +2,23 @@
 
 
 
-
 <?php
 require_once('../nav.php');
 ?>
 <!doctype html>
 <html>
 <head>
-<title>Updating Room</title>
+<title>Deleting Room</title>
 
 <link href="../css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
 <link href="../css/header.css" rel="stylesheet" type="text/css">
 <link href="../css/main-div.css" rel="stylesheet" type="text/css">
-	
-<script>
-var roomtype=['luxury suites','deluxe rooms','normal rooms','ward beds'];
-var roomrate=[15000,10000,8000,5000];
-function displayrate(){
-var index=document.getElementById("rt").selectedIndex;
-document.getElementById("pc").value=roomrate[index];
-}
-</script> 
+
 <head>
 <body>
 <div class="container main_div">
 <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
-<h5 align="center" id="head">Searching Room for Editing</h5>
+<h5 align="center" id="head">Searching Room for Removing</h5>
 <div class="form-group row">
 		<label for="pd" class="col-sm-4 col-form-label">Enter Room ID</label>
 		<div class="col-sm-8">
@@ -54,46 +45,45 @@ $result=$conn->query($sql);
 ?>
 </div>
 <div class="container" id="myform">
-<h4 align="center" class="my">Updating Room</h4>
-<form action="../db/update_room.php" method="post">
+<h5 align="center" class="my">Room Details</h5>
+<form action="../db/delete_room.php" method="post">
 
 <div class="form-group row">
 		<label for="rid" class="col-sm-4 col-form-label" class="sr-only">Enter room ID</label>
 		<div class="col-sm-8">
-		<input type="text" class="form-control" name="roomid" required maxlength="4" pattern="[0-9]{3}" id="rid" autofocus readonly value="<?php echo $_POST['roomid'] ?>" >
+		<input type="text" class="form-control" name="roomid" required maxlength="4" pattern="[0-9]{3}" id="rid"  readonly value="<?php echo $_POST['roomid'] ?>" >
 		</div>
 </div>
 
 <div class="form-group row">
-		<label for="rt" class="col-sm-4 col-form-label" class="sr-only">Select Type</label>
+		<label for="rt" class="col-sm-4 col-form-label" class="sr-only">Room Type</label>
 		<div class="col-sm-8">
-		<select name="roomtype" class="form-control" id="rt" requird onchange="displayrate()">
-				<option <?php if($row['room_type']=='luxury suites')echo 'selected' ?> >luxury suites</option>
-				<option <?php if($row['room_type']=='deluxe rooms')echo 'selected' ?> >deluxe rooms</option>
-				<option <?php if($row['room_type']=='normal rooms')echo 'selected' ?> >normal rooms</option>
-				<option <?php if($row['room_type']=='ward beds')echo 'selected' ?> >ward beds</option>
-		</select>
+		<input type="text" name="roomtype" class="form-control" id="rt" requird  disabled value=<?php echo $row['room_type'] ?>">
 		</div>
 </div>
 
 <div class="form-group row">
 		<label for="rc" class="col-sm-4 col-form-label" class="sr-only">Per Day Charge</label>
 		<div class="col-sm-8">
-		<input type="text" name="roomrate" class="form-control" id="pc" requird value="<?php echo $row['room_rate']; ?>">
+		<input type="text" name="roomtype" class="form-control" id="rt" requird  disabled value="<?php echo $row['room_rate'] ?>">
+
 		</div>
 </div>
 <div class="form-group row">
-		<label for="rf" class="col-sm-4 col-form-label" class="sr-only">Room Facility</label>
+		<label for="rf" class="col-sm-4 col-form-label" class="sr-only">Room Facilities</label>
 		<div class="col-sm-8">
-		<textarea name="roomfacility" class="form-control" required id="rf" rows="4"><?php echo $row['room_facility']; ?></textarea>
+		<textarea name="roomfacility" class="form-control" required id="rf" rows="4" disabled><?php echo $row['room_facility']; ?></textarea>
 		</div>
 </div>
 
 <div class="form-group row">
-  <div class="col-sm-10">
-    <button type="submit" class="btn btn-primary mb-2">Update Room</button>
-  </div>
+	<div class="col-sm-10">
+      <button type="submit" class="btn btn-primary mb-2">Delete Room</button>
+    </div>
+ 
  </div>
+												   
+												   
 </form>
 </div>
 <?php

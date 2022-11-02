@@ -3,10 +3,17 @@
 <file name="frm_update_patient.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133110843671863280" remote="133110843670000000" Dst="0" />
 <file name="frm_delete_patient.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133112484458518683" remote="133112484450000000" Dst="0" />
 <file name="frm_insert_patient.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133110849626286555" remote="133110849620000000" Dst="0" />
-<file name="frm_display_patient.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133112497338332267" remote="133112497330000000" Dst="0" />
-<file name="frm_Insert_Doctor.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133112576477370930" remote="133112576470000000" Dst="0" />
+<file name="frm_display_patient.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133112529700580381" remote="133112529700000000" Dst="0" />
+<file name="frm_Insert_Doctor.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116747222975040" remote="133116747220000000" Dst="0" />
 <file name="frm_update_doctor.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133114943500755304" remote="133114943500000000" Dst="0" />
 <file name="frm_delete_doctor.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116020869995597" remote="133116020860000000" Dst="0" />
 <file name="frm_Insert_room.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116020572393250" remote="133116020570000000" Dst="0" />
 <file name="frm_update_room.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116020485805125" remote="133116020480000000" Dst="0" />
+<file name="frm_delete_room.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116811278634259" remote="133116811270000000" Dst="0" />
+<file name="frm_display_doctor.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116831667260174" remote="133116831660000000" Dst="0" />
+<file name="frm_display_room.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116827945561326" remote="133116827940000000" Dst="0" />
+<file name="frm_insert_lab_test.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116849998609948" remote="133116849990000000" Dst="0" />
+<file name="frm_update_lab_test.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116865209866344" remote="133116865200000000" Dst="0" />
+<file name="frm_delete_lab_test.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116869444952072" remote="133116869440000000" Dst="0" />
+<file name="frm_dispaly_lab_test.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116882332193553" remote="133116882330000000" Dst="0" />
 </dwsync>
