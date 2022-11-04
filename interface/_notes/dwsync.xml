@@ -16,4 +16,8 @@
 <file name="frm_update_lab_test.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116865209866344" remote="133116865200000000" Dst="0" />
 <file name="frm_delete_lab_test.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116869444952072" remote="133116869440000000" Dst="0" />
 <file name="frm_dispaly_lab_test.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116882332193553" remote="133116882330000000" Dst="0" />
+<file name="frm_Insert_In_Patient.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133118534645566257" remote="133118534640000000" Dst="0" />
+<file name="frm_Update_In_Patient.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133118550909956405" remote="133118550900000000" Dst="0" />
+<file name="frm_Insert_Out_Patient.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133118567004394277" remote="133118567000000000" Dst="0" />
+<file name="frm_update_out_patient.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133118575900952649" remote="133118575900000000" Dst="0" />
 </dwsync>
