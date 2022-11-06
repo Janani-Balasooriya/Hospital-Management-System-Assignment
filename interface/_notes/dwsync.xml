@@ -5,7 +5,7 @@
 <file name="frm_insert_patient.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133110849626286555" remote="133110849620000000" Dst="0" />
 <file name="frm_display_patient.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133112529700580381" remote="133112529700000000" Dst="0" />
 <file name="frm_Insert_Doctor.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116747222975040" remote="133116747220000000" Dst="0" />
-<file name="frm_update_doctor.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133114943500755304" remote="133114943500000000" Dst="0" />
+<file name="frm_update_doctor.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133114951618820657" remote="133114951610000000" Dst="0" />
 <file name="frm_delete_doctor.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116020869995597" remote="133116020860000000" Dst="0" />
 <file name="frm_Insert_room.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116020572393250" remote="133116020570000000" Dst="0" />
 <file name="frm_update_room.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133116020485805125" remote="133116020480000000" Dst="0" />
@@ -20,4 +20,8 @@
 <file name="frm_Update_In_Patient.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133118550909956405" remote="133118550900000000" Dst="0" />
 <file name="frm_Insert_Out_Patient.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133118567004394277" remote="133118567000000000" Dst="0" />
 <file name="frm_update_out_patient.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133118575900952649" remote="133118575900000000" Dst="0" />
+<file name="frm_do_test.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133121008945782963" remote="133121008940000000" Dst="0" />
+<file name="frm_view_patient_lab_test.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133121029287145954" remote="133121029280000000" Dst="0" />
+<file name="frm_cal_bill.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133121035882940805" remote="133121035880000000" Dst="0" />
+<file name="frm_discharge.php" server="C:/xampp/htdocs/HND-73/Hospital_System/" local="133121041796139820" remote="133121041790000000" Dst="0" />
 </dwsync>
