@@ -1,0 +1,53 @@
+@media only screen and (min-width: 400px) {
+	
+  body {
+	background-color: green;
+	color: white;
+  }
+	
+  .small-icon {
+    width: 60px;
+  }
+	
+  .small-icon h6 {
+    font-size: 10px;
+  }
+	
+  .float-container {
+    padding: 1px;
+  }
+	
+  .float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+  }
+	
+}
+
+/*@media only screen and (max-width: 700px) {
+	
+  body {
+	background-color: red;
+	color: white;
+  }
+	
+  .small-icon {
+    width: 10px;
+  }
+	
+  .small-icon h6 {
+    font-size: 10px;
+  }
+	
+  .float-container {
+    padding: 1px;
+  }
+	
+  .float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+  }
+	
+}*/

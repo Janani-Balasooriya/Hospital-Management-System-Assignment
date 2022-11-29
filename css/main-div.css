@@ -1,29 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
 
-.main_div{
-	margin-top: 10px;
-	border-radius: 10px;
-	
-	
-	background: rgba(255, 255, 255, 0.52);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
-	
-	
-	
-	 background: rgb(255,255,255);
-background: -moz-linear-gradient(124deg, rgba(255,255,255,1) 0%, rgba(246,237,255,1) 10%, rgba(210,255,255,1) 21%, rgba(235,255,255,1) 42%, rgba(246,237,255,1) 94%, rgba(251,251,251,1) 97%);
-background: -webkit-linear-gradient(124deg, rgba(255,255,255,1) 0%, rgba(246,237,255,1) 10%, rgba(210,255,255,1) 21%, rgba(235,255,255,1) 42%, rgba(246,237,255,1) 94%, rgba(251,251,251,1) 97%);
-background: linear-gradient(124deg, rgba(255,255,255,1) 0%, rgba(246,237,255,1) 10%, rgba(210,255,255,1) 21%, rgba(235,255,255,1) 42%, rgba(246,237,255,1) 94%, rgba(251,251,251,1) 97%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#fbfbfb",GradientType=1); 
-	
-	padding: 20px;
-	
-	
-	
-	
+.main_div {
+  margin-top: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.52);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(124deg, rgba(255, 255, 255, 1) 0%, rgba(246, 237, 255, 1) 10%, rgba(210, 255, 255, 1) 21%, rgba(235, 255, 255, 1) 42%, rgba(246, 237, 255, 1) 94%, rgba(251, 251, 251, 1) 97%);
+  background: -webkit-linear-gradient(124deg, rgba(255, 255, 255, 1) 0%, rgba(246, 237, 255, 1) 10%, rgba(210, 255, 255, 1) 21%, rgba(235, 255, 255, 1) 42%, rgba(246, 237, 255, 1) 94%, rgba(251, 251, 251, 1) 97%);
+  background: linear-gradient(124deg, rgba(255, 255, 255, 1) 0%, rgba(246, 237, 255, 1) 10%, rgba(210, 255, 255, 1) 21%, rgba(235, 255, 255, 1) 42%, rgba(246, 237, 255, 1) 94%, rgba(251, 251, 251, 1) 97%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#fbfbfb", GradientType=1);
+  padding: 20px;
 }
